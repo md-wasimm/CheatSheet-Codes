@@ -1,0 +1,12 @@
+// Given a positive integer, n. Find the factorial of n.
+
+class Solution{
+    public:
+    int factorial(int n){
+        if(n<1){
+            return 1;
+        }else{
+            return n*factorial(n-1);
+        }
+    }
+};
